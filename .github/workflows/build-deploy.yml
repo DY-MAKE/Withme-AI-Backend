@@ -6,7 +6,7 @@ on:
       - "master"
 
 env:
-  DOCKER_IMAGE: ghcr.io/dyhs/withme-ai-backend # ghcr에 업로드될 이미지 이름, format: ghcr.io/깃허브유저이름/이미지이름
+  DOCKER_IMAGE: ghcr.io/dy-make/withme-ai-backend # ghcr에 업로드될 이미지 이름, format: ghcr.io/깃허브유저이름/이미지이름
 
 jobs:
   docker:
